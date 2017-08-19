@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #eee;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+  display: block;
+  padding: 5px 20px;
+  margin: 0 0 5px 0;
+
+  background-color: #fff;
+}
+
+section:last-of-type {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.header__subtitle {
+  color: #444;
+  font-style: italic;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.skills__list {
+  padding: 0;
+  margin: 0;
+}
+
+.skill {
+  display: flex;
+  margin: 0 0 10px 0;
+}
+
+.skill:last-of-type {
+  margin: 0;
+}
+
+.skill__icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.skill__name {
+  margin-left: 20px;
+  align-self: center;
+}
+
+.skill__opinion {
+  font-style: italic;
+}
