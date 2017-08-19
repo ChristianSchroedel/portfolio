@@ -24,13 +24,26 @@ section:last-of-type {
 
 .header {
   text-align: center;
-  background-color: lightblue;
+  background-color: #a3c3e4;
   padding: 10px;
 }
 
 .header__subtitle {
   color: #444;
   font-style: italic;
+}
+
+.header__social {
+  position: absolute;
+  display: flex;
+  top: 10px;
+  right: 10px;
+}
+
+.header__social--mark {
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
 }
 
 .content {
@@ -53,6 +66,7 @@ section:last-of-type {
 }
 
 .skill__icon {
+  display: block;
   width: 40px;
   height: 40px;
   object-fit: contain;
