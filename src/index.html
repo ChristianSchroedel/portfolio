@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -7,16 +8,17 @@
   <link rel="stylesheet" href="main.css">
   <title>HTML Portfolio</title>
 </head>
+
 <body>
   <header class="header">
     <h1>Christian Schrödel</h1>
     <h2 class="header__subtitle">Software Developer and Triathlete</h2>
     <div class="header__social">
       <a target="_blank" href="https://twitter.com/ChrisSchroedel">
-        <img class="header__social--mark" src="twitter.svg" alt="Twitter">
+        <img class="header__social--mark" src="./img/social/twitter.svg" alt="Twitter">
       </a>
       <a target="_blank" href="https://github.com/ChristianSchroedel">
-        <img class="header__social--mark" src="github.png" alt="GitHub">
+        <img class="header__social--mark" src="./img/social/github.png" alt="GitHub">
       </a>
     </div>
   </header>
@@ -27,96 +29,99 @@
     </section>
     <section>
       <h3>What do is use for programming?</h3>
-      <p>These are the technologies I enjoy working with every day:</p>
-      <ul class="skills__list">
-        <li class="skill">
+      <p>These are the technologies I am usually working with:</p>
+      <div class="skills__list">
+        <div class="skill">
           <a target="_blank" href="https://angular.io/">
-            <img class="skill__icon" src="angular.svg" alt="Angular">
+            <img class="skill__icon" src="./img/tech/angular.svg" alt="Angular">
           </a>
-          <span class="skill__name">
-            <strong>Angular</strong> -
-            <span class="skill__opinion">My commonly used Web application framework</span>
-          </span>
-        </li>
-        <li class="skill">
+          <div class="skill__name">
+            <strong>Angular</strong>
+            <p class="skill__opinion">My commonly used Web application framework</p>
+          </div>
+        </div>
+        <div class="skill">
           <a target="_blank" href="https://www.typescriptlang.org/">
-            <img class="skill__icon" src="typescript.png" alt="TypeScript">
+            <img class="skill__icon" src="./img/tech/typescript.png" alt="TypeScript">
           </a>
-          <span class="skill__name">
-            <strong>TypeScript</strong> -
-            <span class="skill__opinion">Strong typings for JS make your life easier</span>
-          </span>
-        </li>
-        <li class="skill">
+          <div class="skill__name">
+            <strong>TypeScript</strong>
+            <p class="skill__opinion">Strong typings for JS make your life easier</p>
+          </div>
+        </div>
+        <div class="skill">
           <a target="_blank" href="https://www.w3schools.com/css/css3_intro.asp">
-            <img class="skill__icon" src="css3.png" alt="CSS3">
+            <img class="skill__icon" src="./img/tech/css3.png" alt="CSS3">
           </a>
-          <span class="skill__name">
-            <strong>CSS</strong> -
-            <span class="skill__opinion">Want style? You have to use it anyway!</span>
-          </span>
-        </li>
-        <li class="skill">
+          <div class="skill__name">
+            <strong>CSS</strong>
+            <p class="skill__opinion">Want style? You have to use it anyway!</p>
+          </div>
+        </div>
+        <div class="skill">
           <a target="_blank" href="https://www.w3schools.com/html/html5_intro.asp">
-            <img class="skill__icon" src="html5.png" alt="HTML5">
+            <img class="skill__icon" src="./img/tech/html5.png" alt="HTML5">
           </a>
-          <span class="skill__name">
-            <strong>HTML</strong> -
-            <span class="skill__opinion">Gives the web its structure</span>
-          </span>
-        </li>
-        <li class="skill">
+          <div class="skill__name">
+            <strong>HTML</strong>
+            <p class="skill__opinion">Gives the web its structure</p>
+          </div>
+        </div>
+        <div class="skill">
           <a target="_blank" href="https://git-scm.com/">
-            <img class="skill__icon" src="git.png" alt="Git">
+            <img class="skill__icon" src="./img/tech/git.png" alt="Git">
           </a>
-          <span class="skill__name">
-            <strong>Git</strong> -
-            <span class="skill__opinion">My most favorite VCS</span>
-          </span>
-        </li>
-        <li class="skill">
+          <div class="skill__name">
+            <strong>Git</strong>
+            <p class="skill__opinion">My most favorite VCS</p>
+          </div>
+        </div>
+        <div class="skill">
           <a target="_blank" href="http://reactivex.io/rxjs/">
-            <img class="skill__icon" src="rxjs.png" alt="RxJS">
+            <img class="skill__icon" src="./img/tech/rxjs.png" alt="RxJS">
           </a>
-          <span class="skill__name">
-            <strong>RxJS</strong> -
-            <span class="skill__opinion">Functional programming with Observables? Get them marbles!</span>
-          </span>
-        </li>
-        <li class="skill">
+          <div class="skill__name">
+            <strong>RxJS</strong>
+            <p class="skill__opinion">Functional programming with Observables? Get them marbles!</p>
+          </div>
+        </div>
+        <div class="skill">
           <a target="_blank" href="https://nodejs.org/en/">
-            <img class="skill__icon" src="nodejs.png" alt="NodeJS">
+            <img class="skill__icon" src="./img/tech/nodejs.png" alt="NodeJS">
           </a>
-          <span class="skill__name">
+          <div class="skill__name">
             <strong>NodeJS</strong> -
-            <span class="skill__opinion">Using server side JS is so much fun</span>
-          </span>
-        </li>
-        <li class="skill">
+            <p class="skill__opinion">Using server side JS is easy and fun</p>
+          </div>
+        </div>
+        <div class="skill">
           <a target="_blank" href="https://developer.android.com/index.html">
-            <img class="skill__icon" src="android.png" alt="Android">
+            <img class="skill__icon" src="./img/tech/android.png" alt="Android">
           </a>
-          <span class="skill__name">
-            <strong>Android</strong> -
-            <span class="skill__opinion">This is what it all started for me</span>
-          </span>
-        </li>
-      </ul>
+          <div class="skill__name">
+            <strong>Android</strong>
+            <p class="skill__opinion">This is what it all started for me</p>
+          </div>
+        </div>
+      </div>
       <p>I am always on the lookout for useful tools and technologies though.</p>
       <p>Learning and using a new technology to me is the best thing about programming.</p>
     </section>
     <section>
       <h3>What is the purpose of this site?</h3>
-      <p>This is in no way a kind of self-promotion. Just want to give people a quick look what I do and what I like.</p>
-      <p>The idea of this site is also to just create a small homepage with basic web technology.</p>
+      <p>The idea of this site is to create a small homepage with basic web technology.</p>
       <p>No clunky cms. No hyped JS framework. No magician like SASS or Typescript. Heck not even JS is used.</p>
       <p>Just a page with good ol' CSS3 and HTML5 - To keep it simple.</p>
     </section>
     <section>
       <h3>Contact me if you like</h3>
-      <p>You can reach me via <a href="mailto:christian.schroedel@googlemail.com">E-Mail</a>
-        or <a target="_blank" href="https://twitter.com/ChrisSchroedel">Twitter</a></p>
+      <p>You can reach me via
+        <a href="mailto:christian.schroedel@googlemail.com">E-Mail</a>
+        or
+        <a target="_blank" href="https://twitter.com/ChrisSchroedel">Twitter</a>
+      </p>
     </section>
   </article>
 </body>
+
 </html>

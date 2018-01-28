@@ -22,9 +22,13 @@ section:last-of-type {
   margin: 0;
 }
 
+h1 {
+  margin: 1.2em 0 .5em;
+}
+
 .header {
   text-align: center;
-  background-color: #a3c3e4;
+  background-color: #03a9f4b8;
   padding: 10px;
 }
 
@@ -51,7 +55,7 @@ section:last-of-type {
   max-width: 700px;
 }
 
-.skills__list {
+.skills__list {  
   padding: 0;
   margin: 0;
 }
@@ -67,16 +71,27 @@ section:last-of-type {
 
 .skill__icon {
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   object-fit: contain;
 }
 
 .skill__name {
-  margin-left: 20px;
+  margin: 0 20px;
   align-self: center;
 }
 
 .skill__opinion {
-  font-style: italic;
+  margin: 5px 0;
+}
+
+@media (min-width: 580px) {
+  .skills__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skill {
+    width: 50%;
+  }
 }
